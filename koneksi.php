@@ -1,11 +1,11 @@
 <?php
 
-$koneksi=mysqli_connect("localhost","root","12","phpregmalam");
+$koneksi=mysqli_connect("localhost","root","","phpregmalam");
 
-if($koneksi){
+/*if($koneksi){
     echo "Koneksi Sukses.";
 }else{
     echo "Koneksi Gagal.";
-}
+}*/
 
 ?>

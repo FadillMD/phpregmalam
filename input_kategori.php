@@ -1,6 +1,6 @@
 <?php include("koneksi.php");  
 if(isset($_POST['save'])){ 
-    $query_input=mysqli_query($koneksi,"insert into kategori(nama) values( '".$_POST['nama']."')");
+    $query_input=mysqli_query($koneksi,"INSERT INTO kategori(nama) values( '".$_POST['nama']."')");
     if($query_input){
         header('location:view_kategori.php'); 
     }else{ 
