@@ -1,4 +1,4 @@
-<?php
+<?php 
 // memulai session
 session_start();
 // memanggil file koneksi
