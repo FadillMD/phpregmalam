@@ -1,15 +1,5 @@
 <?php 
 session_start();
-if(isset($_SESSION['username'])){
-	header("location:home.php");
-}
-	if(isset($_GET['pesan'])){
-		if($_GET['pesan']=="gagaluser"){
-			echo "<SCRIPT>alert('Username dan Password tidak sesuai !');window.location='index.php'</SCRIPT>";
-		}else if($_GET['pesan']=="gagalaktif"){
-			echo "<SCRIPT>alert('User tidak aktif !');window.location='index.php'</SCRIPT>";
-		}
-	}
 ?>
 <!DOCTYPE html>
 <html>
